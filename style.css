@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@1..144,1..1000&display=swap');
+
+*{
+  font-family: "Google Sans Flex", sans-serif; 
+}
+
+
+body {
+
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+
+    margin-top: 50px;
+    width: 300px;
+    box-shadow: 0px 0px 20px 10px #0044ff;
+    padding: 50px;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #0044ff;
+    width: 50px;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+button {
+
+    width: 250px;
+    height: 30px;
+    margin-top: 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#result{
+
+    margin-top: 20px;
+    font-size: 30px;
+
+}
+
